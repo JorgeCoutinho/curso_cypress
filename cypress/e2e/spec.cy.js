@@ -1,5 +1,5 @@
 describe('template spec', () => {
-  it('passes', () => {
+  it('Deve preencher os campos do formulário corretamente para cadastrar um novo usúario', () => {
     cy.visit('https://adopet-tau.vercel.app/');
     cy.contains('a', 'Cadastrar').click();
     cy.get('input[name="name"]').type('Jorge Mikael');
