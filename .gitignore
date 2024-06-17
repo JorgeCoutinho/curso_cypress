@@ -21,6 +21,7 @@ rad.json
 #Test results file
 TestResults.xml
 node_modules/
+cypress.env.json/
 
 /.env
 /logs/
