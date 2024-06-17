@@ -26,3 +26,4 @@ Visite a página de /login do Adopet;
 Visite a página de /home do Adopet;
 Visite a página de /home do AdoPet e clique no botão “Falar com o responsável”.
 
+ npx cypress run --spec .\cypress\e2e\login-certo.cy.js
